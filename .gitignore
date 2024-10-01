@@ -1,1 +1,4 @@
 resources/an/*
+simulations/*.raw
+simulations/*.log
+simulations/*.plt
