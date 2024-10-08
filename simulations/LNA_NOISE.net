@@ -1,0 +1,45 @@
+* C:\users\igorwolfs\My Documents\Personal\Projects\RF_LNA\simulations\LNA_NOISE.asc
+Vcc_ac3 N001 0 5
+Q_ac7 N005 N006 N009 0 M_BFP640
+R9 N001 N003 2.2e3
+R10 N006 0 1e3
+Re_ac3 N009 0 50
+Rc_ac6 N001 N002 200
+Cin_ac9 N006 N008 100nF
+R11 N003 N006 1e3
+Q_ac8 N002 N003 N005 0 M_BFP640
+Cin_ac10 N003 0 100nF
+Cin_ac11 0 N009 100nF
+Q_ac9 N001 N002 N004 0 M_BFP640
+Rc_ac7 N004 0 200
+Cin_ac12 out N004 100nF
+Rout1 out 0 50
+V2 N010 0 AC 1 0 Rser=0
+Q_ac1 N012 N011 0 0 M_BFP640
+c_bias_base N011 N014 100nF
+Vin_test N014 0 AC 1 0 Rser=50
+c_bias_collector N013 N012 100nF
+RL N013 0 50
+V3 N011 0 0.7
+V4 N012 0 3
+Q_ac2 N017 N019 0 0 M_BFP640
+c_bias_base1 N019 N018 100nF
+vin_SNR_test N020 0 SINE(0 1e-4 450e6) AC 1e-4 0 Rser=0
+c_bias_collector1 out_SNR_test N017 100nF
+RL1 out_SNR_test 0 50
+V5 N016 0 3
+I1 0 N015 0.0216e-3
+L1 N016 N017 20nH
+L2 N015 N019 10nH
+R1 N008 N010 50
+Rs N018 N020 50
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\igorwolfs\My Documents\LTspiceXVII\lib\cmp\standard.bjt
+;ac lin 1e10 1e8 2e9
+;.net I(Rout) V1  ; Rin & Rout determined from V4 and Rout
+* NOISE
+.noise V(out) V2 oct 1e4 1e7 2e9
+;tran 0 1e-5 0 1e-10
+.backanno
+.end
