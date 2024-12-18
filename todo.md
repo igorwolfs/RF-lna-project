@@ -30,3 +30,4 @@
 https://www.dropbox.com/scl/fo/npviayd3suq8fr7pxx62i/h?rlkey=80ckskojj8e3efs7njtae7ybv&e=1&dl=0
 - Input impedance Z11: between 500 (1 GHz) and 250-300 ohms (2 GHz)
 - Output impedance Z22: between 60 (0.5 GHz) and 10 ohms (2 GHz)
+
