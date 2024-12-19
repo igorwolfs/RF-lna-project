@@ -30,4 +30,7 @@
 https://www.dropbox.com/scl/fo/npviayd3suq8fr7pxx62i/h?rlkey=80ckskojj8e3efs7njtae7ybv&e=1&dl=0
 - Input impedance Z11: between 500 (1 GHz) and 250-300 ohms (2 GHz)
 - Output impedance Z22: between 60 (0.5 GHz) and 10 ohms (2 GHz)
-
+-> This is done
+- Think about using 2 L-circuits to design impedance matching
+- Check if you can somehow plot the bode-diagram in SimNec to see the bandwidth etc..
+- Then don't waste any more time, just put it in, check in spice, design in kicad and move on to the power supply.
