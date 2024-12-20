@@ -2379,6 +2379,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 226.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 226.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f81f27c2-c943-4b35-aa63-83da3db199f6")
 		)
@@ -2662,6 +2680,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "18b9ee2f-beae-49cb-9413-5019f7510998")
 		)
@@ -2697,7 +2733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "17nH"
+		(property "Value" "18nH"
 			(at 196.85 121.9199 0)
 			(effects
 				(font
@@ -2706,7 +2742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -2715,7 +2751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Shenzhen%20Sunlord/SDCL-D.pdf"
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -2733,7 +2769,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C24562"
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -2742,7 +2778,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" ""
+		(property "Manufacturing Part Number" "SDCL1005C18NJTDF"
+			(at 195.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 195.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -2905,6 +2959,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6ba9208-8447-4324-8ca6-622855388f99")
 		)
@@ -2993,6 +3065,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 226.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 226.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a0940209-f3c9-4534-9e3b-6181aceb901d")
 		)
@@ -3073,6 +3163,24 @@
 			)
 		)
 		(property "LCSC Part Number" "C11702"
+			(at 213.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 213.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -3232,6 +3340,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33e09b75-aaa3-4dff-8050-6433540c4fde")
 		)
@@ -3284,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -3312,6 +3438,24 @@
 			)
 		)
 		(property "Manufacturing Part Number" "0402WGF2200TCE"
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -3429,7 +3573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 254 106.68 0)
 			(effects
 				(font
@@ -3438,7 +3582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Shenzhen%20Sunlord/SDCL-D.pdf"
 			(at 254 106.68 0)
 			(effects
 				(font
@@ -3448,6 +3592,42 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 254 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C32041"
+			(at 254 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" "SDCL1005C6N8JTDF"
+			(at 254 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 254 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 254 106.68 0)
 			(effects
 				(font
@@ -3543,6 +3723,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81ca6a9e-4576-45f0-815f-f265dc8a4b48")
 		)
@@ -3593,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081710_Murata-Electronics-GJM1555C1H1R2WB01D_C76899.pdf"
 			(at 259.08 102.87 0)
 			(effects
 				(font
@@ -3639,6 +3837,24 @@
 			)
 		)
 		(property "Manufacturing Part Number" "GJM1555C1H1R2WB01D"
+			(at 259.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 259.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 259.08 102.87 0)
 			(effects
 				(font
@@ -3820,7 +4036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 118.11 0)
 			(effects
 				(font
@@ -3829,7 +4045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081521_Murata-Electronics-GJM1555C1H3R6WB01D_C161321.pdf"
 			(at 201.93 118.11 0)
 			(effects
 				(font
@@ -3858,6 +4074,42 @@
 		)
 		(property "Field6" ""
 			(at 201.93 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C161321"
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" "GJM1555C1H3R6WB01D"
+			(at 201.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 201.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +4158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.92 102.87 0)
 			(effects
 				(font
@@ -3915,7 +4167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081521_Murata-Electronics-GJM1555C1H3R6WB01D_C161321.pdf"
 			(at 248.92 102.87 0)
 			(effects
 				(font
@@ -3944,6 +4196,42 @@
 		)
 		(property "Field6" ""
 			(at 248.92 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C161321"
+			(at 248.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 248.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" "GJM1555C1H3R6WB01D"
+			(at 248.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 248.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,6 +4318,24 @@
 			)
 		)
 		(property "Manufacturing Part Number" "78L05G-AB3-R "
+			(at 110.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 110.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -4129,6 +4435,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c938a85b-2cde-4832-a2be-b152b03d9124")
 		)
@@ -4209,6 +4533,24 @@
 			)
 		)
 		(property "Manufacturing Part Number" "BFP640H6327"
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 240.03 96.52 0)
 			(effects
 				(font
@@ -4300,6 +4642,24 @@
 			)
 		)
 		(property "Manufacturing Part Number" "BFP640H6327"
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 226.06 118.11 0)
 			(effects
 				(font
@@ -4429,7 +4789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
 			(at 213.36 110.49 0)
 			(effects
 				(font
@@ -4457,6 +4817,24 @@
 			)
 		)
 		(property "LCSC Part Number" "C11702"
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 213.36 110.49 0)
 			(effects
 				(font
@@ -4552,6 +4930,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6acf58c1-febd-48ce-ac75-40d1a61d1d2b")
 		)
@@ -4602,7 +4998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081710_Murata-Electronics-GJM1555C1H1R2WB01D_C76899.pdf"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -4648,6 +5044,24 @@
 			)
 		)
 		(property "Manufacturing Part Number" "GJM1555C1H1R2WB01D"
+			(at 190.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 190.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -4810,6 +5224,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1749ce29-9066-4edf-85a2-b757d6a12b8f")
 		)
@@ -4900,6 +5332,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5d58095-7416-48c6-8767-3c15eef1979a")
 		)
@@ -4979,6 +5429,24 @@
 			)
 		)
 		(property "Manufacturing Part Number" "0402CG101J500NT"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -5075,6 +5543,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR.Part" ""
+			(at 213.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 213.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a8e70326-ab32-4991-b648-c77f8d7b4a9c")
 		)
@@ -5153,6 +5639,24 @@
 			)
 		)
 		(property "Manufacturing Part Number" ""
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" ""
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 86.36 76.2 0)
 			(effects
 				(font
