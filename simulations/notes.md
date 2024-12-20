@@ -20,4 +20,3 @@ We'll match both circuits with T-structures on both ends, first end needs to be 
 - 3.66 pF
 - 6.825 nH
 - 1.5 pF
-
