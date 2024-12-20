@@ -13,5 +13,10 @@ For the following stackup:
 - Prepreg: 7628, RC 49 %, 0.2104 mm
 - L4: CU: 0.035 mm
 
-The tracewidth needs to be:
-- 0.3493 mm
+Use a coplanar waveguide.
+- Choose a trace width of 0.1 mm
+- Can easily handle 0.1635 A, so that's good.
+- distance to surrounding ground: 0.2 mm
+- Trace width: 0.294 mm
+    -> So the total CPW is about 0.7 mm.
+    -> We do have enough space however so that should not be an issue.
