@@ -30,3 +30,11 @@ After deciding to add some inductors to block-off the path to the DC supply. The
 
 ## Output impedance Z22
 - 0.85 + 18.2j Ohms
+
+Given an L-match of 4 pF (series), and 20 nH (shunt), we get a positive S22. (about 2.1 dB)
+
+Which means the signal reflected from port 2 is 2.1 dB times the signal going into port 2, so 1.273
+
+### Question: is this a problem?
+My initial thought would be it is not, since it is the power reflected from the second port when a signal is incident to it. In reality this is only an issue when there needs to be an "input" in the second line, which there is not.
+I would think that as long as the gain is good, there is no real problem.
