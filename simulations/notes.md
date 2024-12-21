@@ -20,3 +20,13 @@ We'll match both circuits with T-structures on both ends, first end needs to be 
 - 3.66 pF
 - 6.825 nH
 - 1.5 pF
+
+# Impedances 2.0
+After deciding to add some inductors to block-off the path to the DC supply. The (mostly output) impedance changed significantly, so matching should be redone.
+
+## Input impedance Z11
+-> Already matched, input stage impedance is decoupled from output stage / power.
+
+
+## Output impedance Z22
+- 0.85 + 18.2j Ohms
