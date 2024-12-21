@@ -36,6 +36,11 @@ NOTE: take a basic part here for cheaper assembly.
 Capacitor Q-factor: capacitor's reactance / capacitor's parasitic resistance.
 - The bigger Q, the smaller the ESR relative to the reactance, the better.
 
+## AC blocking inductors
+Finding a good AC blocking inductor that is
+- About 100 nH
+- Self resonant-frequency beyond 2 GHz
+Seems to be quite the task
 
 ## Matching
 **Left Circuit**

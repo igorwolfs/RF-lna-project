@@ -1,4 +1,0 @@
-(rule "zone clearance myCPW  "
-(layer outer)
-(condition " A.NetClass == 'myCPW' && B.Type=='zone'")
-(constraint clearance (min 0.15mm)  (opt 0.15mm)  (max 2mm)))
