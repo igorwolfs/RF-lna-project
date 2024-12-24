@@ -1647,7 +1647,7 @@
 		)
 	)
 	(junction
-		(at 170.18 60.96)
+		(at 170.18 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11927a2c-92f6-4ff8-829e-61cb8591be52")
@@ -1659,7 +1659,7 @@
 		(uuid "16413b4f-9e6f-4ecc-9a46-f5ed7e34938d")
 	)
 	(junction
-		(at 170.18 158.75)
+		(at 170.18 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19838455-dd27-4618-b811-f1f55b0829cd")
@@ -1671,13 +1671,19 @@
 		(uuid "1a26a1a8-7239-41e8-bb49-70076b746165")
 	)
 	(junction
+		(at 35.56 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31889d52-9bc7-4cd6-a863-56e3af10796d")
+	)
+	(junction
 		(at 144.78 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36e32e3a-ebc6-4e68-aef3-6b81203aedb9")
 	)
 	(junction
-		(at 184.15 60.96)
+		(at 184.15 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38649e5e-b6ed-4d7a-aefe-c51b98fc9159")
@@ -1719,12 +1725,6 @@
 		(uuid "6dced55c-944f-44f0-9ef7-a5382f826342")
 	)
 	(junction
-		(at 35.56 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7105f1bf-8a9e-42db-bb06-f1855318213c")
-	)
-	(junction
 		(at 34.29 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1749,7 +1749,7 @@
 		(uuid "d548d5aa-ef5c-4b20-8be1-b8a9ba31c204")
 	)
 	(junction
-		(at 184.15 158.75)
+		(at 184.15 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e82819a7-94e9-4a54-8b54-7e84fb8e9b93")
@@ -1768,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 158.75) (xy 170.18 158.75)
+			(xy 160.02 151.13) (xy 170.18 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1778,17 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 73.66) (xy 170.18 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02526cd3-a9e3-4839-8104-98a760f2b11c")
-	)
-	(wire
-		(pts
-			(xy 170.18 60.96) (xy 170.18 62.23)
+			(xy 170.18 72.39) (xy 170.18 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1798,7 +1788,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 129.54) (xy 170.18 132.08)
+			(xy 170.18 134.62) (xy 170.18 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1818,7 +1808,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 60.96) (xy 184.15 62.23)
+			(xy 184.15 72.39) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1828,7 +1818,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 87.63) (xy 170.18 91.44)
+			(xy 170.18 83.82) (xy 170.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1908,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 138.43) (xy 184.15 149.86)
+			(xy 184.15 138.43) (xy 184.15 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1928,26 +1918,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 137.16) (xy 170.18 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "347f828f-85e5-4db4-98fe-05e27e8fb768")
-	)
-	(wire
-		(pts
-			(xy 170.18 67.31) (xy 170.18 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e413ed-18df-48ce-90c4-515b3f449058")
-	)
-	(wire
-		(pts
 			(xy 63.5 110.49) (xy 63.5 113.03)
 		)
 		(stroke
@@ -1958,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 140.97) (xy 200.66 143.51)
+			(xy 200.66 124.46) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1968,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 158.75) (xy 195.58 158.75)
+			(xy 184.15 151.13) (xy 195.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2048,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 154.94) (xy 195.58 158.75)
+			(xy 195.58 147.32) (xy 195.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2088,16 +2058,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 85.09) (xy 45.72 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc0f2e7-4f78-4c4e-888c-3029463d1c4b")
-	)
-	(wire
-		(pts
 			(xy 166.37 104.14) (xy 170.18 104.14)
 		)
 		(stroke
@@ -2128,16 +2088,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 81.28) (xy 170.18 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb863bb-cf7b-4be5-a34a-e07f654df110")
-	)
-	(wire
-		(pts
 			(xy 88.9 125.73) (xy 88.9 127)
 		)
 		(stroke
@@ -2148,7 +2098,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 138.43) (xy 195.58 149.86)
+			(xy 200.66 115.57) (xy 200.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c07cd6-f824-4a1e-b334-216260c1dea9")
+	)
+	(wire
+		(pts
+			(xy 195.58 138.43) (xy 195.58 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2158,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 170.18 60.96)
+			(xy 170.18 71.12) (xy 170.18 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2178,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 184.15 76.2)
+			(xy 184.15 88.9) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2258,16 +2218,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 129.54) (xy 200.66 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82bb8348-a0b4-40d1-948d-470543dc6e4a")
-	)
-	(wire
-		(pts
 			(xy 248.92 105.41) (xy 248.92 107.95)
 		)
 		(stroke
@@ -2298,17 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 151.13) (xy 170.18 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aefa649-cb81-4396-bac4-a69a70cff114")
-	)
-	(wire
-		(pts
-			(xy 170.18 120.65) (xy 170.18 124.46)
+			(xy 170.18 120.65) (xy 170.18 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2318,13 +2258,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 81.28) (xy 184.15 82.55)
+			(xy 35.56 85.09) (xy 46.99 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99b807d3-b545-4ab8-9bec-31a8dc9a84de")
+		(uuid "97d3df74-04b8-4b7f-9fdf-6567031ab473")
 	)
 	(wire
 		(pts
@@ -2348,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 60.96) (xy 200.66 60.96)
+			(xy 184.15 72.39) (xy 200.66 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2368,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 154.94) (xy 184.15 158.75)
+			(xy 184.15 147.32) (xy 184.15 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2378,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 158.75) (xy 184.15 160.02)
+			(xy 184.15 151.13) (xy 184.15 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2418,17 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 114.3) (xy 200.66 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aced4480-2e08-42d2-8e99-964baa25cacf")
-	)
-	(wire
-		(pts
-			(xy 170.18 158.75) (xy 184.15 158.75)
+			(xy 170.18 151.13) (xy 184.15 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2468,23 +2398,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 105.41) (xy 200.66 109.22)
+			(xy 200.66 105.41) (xy 200.66 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bce2e01c-789c-4c55-af08-f3ca871982b3")
-	)
-	(wire
-		(pts
-			(xy 200.66 121.92) (xy 200.66 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60b4340-fb77-4b3a-bce5-47d43f7936c4")
 	)
 	(wire
 		(pts
@@ -2508,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 157.48) (xy 170.18 158.75)
+			(xy 170.18 146.05) (xy 170.18 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 60.96) (xy 184.15 60.96)
+			(xy 170.18 72.39) (xy 184.15 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2528,7 +2448,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 67.31) (xy 184.15 68.58)
+			(xy 184.15 80.01) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2568,16 +2488,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 87.63) (xy 184.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0014f2f-7262-4c13-850a-20e8bb13439e")
-	)
-	(wire
-		(pts
 			(xy 219.71 105.41) (xy 229.87 105.41)
 		)
 		(stroke
@@ -2595,16 +2505,6 @@
 			(type default)
 		)
 		(uuid "e355c900-fea8-4b3b-a895-861f00f1b68d")
-	)
-	(wire
-		(pts
-			(xy 170.18 144.78) (xy 170.18 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e60fc8b4-3132-4d88-a069-d7c980486efe")
 	)
 	(wire
 		(pts
@@ -2668,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 60.96) (xy 200.66 93.98)
+			(xy 200.66 72.39) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2700,9 +2600,9 @@
 		)
 		(uuid 8826a5b1-cc87-4355-b46e-2da76fe4ddc8)
 	)
-	(text "AMPLIFIER\n"
+	(text "2-STAGE CASCODE"
 		(exclude_from_sim no)
-		(at 114.3 44.45 0)
+		(at 124.968 46.228 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2837,94 +2737,6 @@
 		(uuid "f90d80a7-cb47-4247-9776-b829281607bb")
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 170.18 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "096396c9-5e09-4eb0-a272-74f0dcb8669d")
-		(property "Reference" "L14"
-			(at 171.45 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 171.45 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0398512e-8ef4-46c9-999e-90afc90cde94")
-		)
-		(pin "1"
-			(uuid "cdde3adb-be4f-4692-a5f6-82b28203c9f5")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 163.83 104.14 90)
 		(unit 1)
@@ -3012,7 +2824,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 200.66 138.43 0)
+		(at 200.66 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3021,7 +2833,7 @@
 		(fields_autoplaced yes)
 		(uuid "0abea460-255f-433b-afdb-511f0af5bd55")
 		(property "Reference" "R16"
-			(at 203.2 137.1599 0)
+			(at 203.2 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +2842,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 203.2 139.6999 0)
+			(at 203.2 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +2851,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 200.66 138.43 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,8 +2859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
-			(at 200.66 138.43 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2000TCE_C25087.pdf"
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +2869,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 200.66 138.43 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,8 +2877,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25091"
-			(at 200.66 138.43 0)
+		(property "LCSC Part Number" "C25087"
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,8 +2886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0402WGF2200TCE"
-			(at 200.66 138.43 0)
+		(property "Manufacturing Part Number" "0402WGF2000TCE"
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +2896,7 @@
 			)
 		)
 		(property "MFR.Part" ""
-			(at 200.66 138.43 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +2905,7 @@
 			)
 		)
 		(property "jlcpcb" ""
-			(at 200.66 138.43 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,182 +3055,6 @@
 			(project "rf_lna"
 				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 184.15 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "212d1fd7-dfee-4461-a4f6-3ab2d18320b2")
-		(property "Reference" "L10"
-			(at 185.42 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 185.42 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 184.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 184.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 184.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 184.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 184.15 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "655bf44b-0222-4601-9550-ade1de96a079")
-		)
-		(pin "1"
-			(uuid "433b3578-8179-4763-8a48-691b10de414a")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 170.18 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b7de26e-27d4-4829-aa9f-5e78447c9316")
-		(property "Reference" "L17"
-			(at 171.45 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 171.45 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 170.18 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 170.18 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 170.18 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 170.18 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 170.18 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81452448-eff0-4c52-b470-729d4d800042")
-		)
-		(pin "1"
-			(uuid "6376d1f0-7efc-4854-bc22-f94ba389709e")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L17")
 					(unit 1)
 				)
 			)
@@ -3635,7 +3271,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 170.18 85.09 0)
+		(at 170.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3644,7 +3280,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f0ea886-6bce-4daf-97e3-760c12299815")
 		(property "Reference" "L5"
-			(at 171.45 83.8199 0)
+			(at 171.45 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,8 +3288,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "91nH"
-			(at 171.45 86.3599 0)
+		(property "Value" "160nH"
+			(at 171.45 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3298,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 170.18 85.09 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,8 +3306,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 170.18 85.09 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18ANR16J00D_C140445.pdf"
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3316,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 170.18 85.09 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,8 +3324,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C237546"
-			(at 170.18 85.09 0)
+		(property "LCSC Part Number" "C140445"
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,8 +3333,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 170.18 85.09 0)
+		(property "Manufacturing Part Number" "LQW18ANR16J00D"
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8nH"
+		(property "Value" "15nH"
 			(at 220.98 110.4899 0)
 			(effects
 				(font
@@ -3776,7 +3412,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C32041"
+		(property "LCSC Part Number" "C27143"
 			(at 219.71 109.22 0)
 			(effects
 				(font
@@ -3785,7 +3421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "SDCL1005C6N8JTDF"
+		(property "Manufacturing Part Number" "SDCL1005C15NJTDF"
 			(at 219.71 109.22 0)
 			(effects
 				(font
@@ -3844,7 +3480,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2pF"
+		(property "Value" "1pF"
 			(at 128.778 117.348 90)
 			(effects
 				(font
@@ -3861,7 +3497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081710_Murata-Electronics-GJM1555C1H1R2WB01D_C76899.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081611_Murata-Electronics-GRM1555C1H1R0CA01D_C76953.pdf"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -3897,7 +3533,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C76899"
+		(property "LCSC Part Number" "C76953"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -3906,7 +3542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "GJM1555C1H1R2WB01D"
+		(property "Manufacturing Part Number" "GRM1555C1H1R0CA01D"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -3950,73 +3586,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 45.72 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41c44d75-b85f-4078-806d-f6b64ff17fce")
-		(property "Reference" "#FLG03"
-			(at 45.72 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 45.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94cf0fcc-2b1f-4e30-99c8-323f7028e919")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 160.02 158.75 0)
+		(at 160.02 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4025,7 +3595,7 @@
 		(fields_autoplaced yes)
 		(uuid "4498e064-432f-4187-b5e8-beb616274b19")
 		(property "Reference" "#FLG04"
-			(at 160.02 156.845 0)
+			(at 160.02 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +3604,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 160.02 153.67 0)
+			(at 160.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +3612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 158.75 0)
+			(at 160.02 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +3621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 158.75 0)
+			(at 160.02 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +3630,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 158.75 0)
+			(at 160.02 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,16 +3652,16 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 184.15 78.74 0)
+		(at 184.15 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "44c9a79c-95bf-4e27-962c-c32e60f2304f")
-		(property "Reference" "L11"
-			(at 185.42 77.4699 0)
+		(uuid "46b98baa-ce30-4525-a3e5-c01ef142e100")
+		(property "Reference" "L13"
+			(at 185.42 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,8 +3669,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "91nH"
-			(at 185.42 80.0099 0)
+		(property "Value" "160nH"
+			(at 185.42 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +3679,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 184.15 78.74 0)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,96 +3687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 184.15 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 184.15 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 184.15 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 184.15 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e195719-8414-4258-bcb7-782d1bf67fe4")
-		)
-		(pin "1"
-			(uuid "0335fb82-49a6-4125-b893-2280733c9685")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 170.18 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "477a15d7-6787-4952-9068-0efb2bbd2f6f")
-		(property "Reference" "L18"
-			(at 171.45 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 171.45 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 170.18 142.24 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18ANR16J00D_C140445.pdf"
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +3697,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 170.18 142.24 0)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,8 +3705,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C237546"
-			(at 170.18 142.24 0)
+		(property "LCSC Part Number" "C140445"
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,96 +3714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b488e835-f65a-411c-b634-281c3637da4f")
-		)
-		(pin "1"
-			(uuid "0c5be9b4-bdbe-4892-b3a3-b5b2bd897209")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 200.66 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ac9dba9-f644-4f71-ae3f-f3b270983478")
-		(property "Reference" "L20"
-			(at 201.93 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 201.93 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 200.66 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 200.66 119.38 0)
+		(property "Manufacturing Part Number" "LQW18ANR16J00D"
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,103 +3724,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3e335f06-03a1-4e8d-858d-afdbb0624dfd")
+			(uuid "9efc6799-dd98-43dd-8570-dd54cb9aaac0")
 		)
 		(pin "1"
-			(uuid "16c05cd2-951f-4967-948f-3f35aee62735")
+			(uuid "f3fc8278-2bbe-470a-87f4-ef3f3a1a5e35")
 		)
 		(instances
 			(project "rf_lna"
 				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 170.18 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e46c4f5-735c-4d5b-bb6a-89e9d692d64f")
-		(property "Reference" "L19"
-			(at 171.45 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 171.45 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 170.18 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 170.18 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 170.18 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 170.18 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 170.18 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db5a5027-b98c-4c8d-8cda-640f521ffb5d")
-		)
-		(pin "1"
-			(uuid "f1a650aa-c05a-4a70-9afe-91fdc2aa340c")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L19")
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -4434,7 +3740,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 170.18 59.69 0)
+		(at 170.18 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4443,7 +3749,7 @@
 		(fields_autoplaced yes)
 		(uuid "5439f15d-d902-4e06-99a3-b4f0ecf25356")
 		(property "Reference" "#PWR022"
-			(at 170.18 63.5 0)
+			(at 170.18 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +3758,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 170.18 54.61 0)
+			(at 170.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +3766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 59.69 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 59.69 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +3784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 170.18 59.69 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,16 +3872,15 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 200.66 111.76 0)
+		(at 200.66 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5e11355e-48f2-4d68-9e84-8f725f19315c")
 		(property "Reference" "L9"
-			(at 201.93 110.4899 0)
+			(at 201.93 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,8 +3888,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "91nH"
-			(at 201.93 113.0299 0)
+		(property "Value" "160nH"
+			(at 201.676 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +3898,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 200.66 111.76 0)
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,8 +3906,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 200.66 111.76 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18ANR16J00D_C140445.pdf"
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +3916,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 200.66 111.76 0)
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,8 +3924,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C237546"
-			(at 200.66 111.76 0)
+		(property "LCSC Part Number" "C140445"
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,8 +3933,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 200.66 111.76 0)
+		(property "Manufacturing Part Number" "LQW18ANR16J00D"
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,94 +4080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 184.15 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ea900f3-8c2d-4567-a96f-ca18612fb0de")
-		(property "Reference" "L13"
-			(at 185.42 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 185.42 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 184.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 184.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 184.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 184.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 184.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0559e2fb-3248-4788-93c3-4d54a85a523b")
-		)
-		(pin "1"
-			(uuid "4a8d26bd-8204-4ad4-80b0-cef505b5eeb3")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 232.41 105.41 90)
 		(unit 1)
@@ -4986,7 +4203,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 160.02 0)
+		(at 184.15 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4995,7 +4212,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b811670-b9ef-487c-af4f-e90a038f7467")
 		(property "Reference" "#PWR023"
-			(at 184.15 166.37 0)
+			(at 184.15 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +4221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 165.1 0)
+			(at 184.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +4229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 160.02 0)
+			(at 184.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +4238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 160.02 0)
+			(at 184.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +4247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 160.02 0)
+			(at 184.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,7 +4269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 184.15 152.4 0)
+		(at 184.15 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5061,7 +4278,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f3c05c0-4ded-44a3-b0cf-9d88e99b7e3b")
 		(property "Reference" "R15"
-			(at 186.69 151.1299 0)
+			(at 186.69 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +4287,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 186.69 153.6699 0)
+			(at 186.69 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,8 +4295,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 184.15 152.4 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +4305,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
-			(at 184.15 152.4 0)
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +4314,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 184.15 152.4 0)
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,8 +4322,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C4109"
-			(at 184.15 152.4 0)
+		(property "LCSC Part Number" "C23182"
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,8 +4331,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0402WGF2001TCE"
-			(at 184.15 152.4 0)
+		(property "Manufacturing Part Number" "0603WAF470JT5E"
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +4341,7 @@
 			)
 		)
 		(property "MFR.Part" ""
-			(at 184.15 152.4 0)
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +4350,7 @@
 			)
 		)
 		(property "jlcpcb" ""
-			(at 184.15 152.4 0)
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,182 +4368,6 @@
 			(project "rf_lna"
 				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 184.15 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83298285-6ccf-402f-8bee-cee7dea969a7")
-		(property "Reference" "L12"
-			(at 185.42 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 185.42 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 184.15 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 184.15 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 184.15 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 184.15 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 184.15 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8466cb23-6163-4618-b554-b2eebf12b5a6")
-		)
-		(pin "1"
-			(uuid "8c9d0ca2-f763-4c00-8aa6-008fb1e1436c")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 170.18 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8371fff2-cf5f-4944-be88-239c75b9d263")
-		(property "Reference" "L15"
-			(at 171.45 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 171.45 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 170.18 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0189248c-e2b4-484e-b2ea-7913625dd8f3")
-		)
-		(pin "1"
-			(uuid "a12836c2-d6bb-4e87-9e6a-06233555477f")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L15")
 					(unit 1)
 				)
 			)
@@ -5661,7 +4702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG101J500NT_C1546.pdf"
 			(at 76.2 119.38 0)
 			(effects
 				(font
@@ -5819,6 +4860,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 184.15 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac83f53-1d3d-4d3b-9349-9007e73c6eef")
+		(property "Reference" "L12"
+			(at 185.42 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "160nH"
+			(at 185.42 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18ANR16J00D_C140445.pdf"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C140445"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" "LQW18ANR16J00D"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "152ea133-0564-4f90-a63f-6e7b274fbdd6")
+		)
+		(pin "1"
+			(uuid "eec279e3-fc15-4e20-b576-690ec7794030")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
+					(reference "L12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 184.15 93.98 0)
 		(unit 1)
@@ -5855,7 +4984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2000TCE_C25087.pdf"
 			(at 184.15 93.98 0)
 			(effects
 				(font
@@ -5873,7 +5002,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25091"
+		(property "LCSC Part Number" "C25087"
 			(at 184.15 93.98 0)
 			(effects
 				(font
@@ -5882,7 +5011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "0402WGF2200TCE"
+		(property "Manufacturing Part Number" "0402WGF2000TCE"
 			(at 184.15 93.98 0)
 			(effects
 				(font
@@ -6078,94 +5207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 170.18 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bccf733-585f-42da-b8d2-c17f71683cb3")
-		(property "Reference" "L16"
-			(at 171.45 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 171.45 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 170.18 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 170.18 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 170.18 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 170.18 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 170.18 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3fdc44f4-3763-4fdc-b6c0-ad3833045eab")
-		)
-		(pin "1"
-			(uuid "fb2e693c-3c24-48ef-97e7-ea6b02b8053a")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 246.38 105.41 0)
 		(unit 1)
@@ -6317,96 +5358,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 200.66 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0987fee-36dd-4e49-b430-75abe8cc0ebf")
-		(property "Reference" "L21"
-			(at 201.93 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 201.93 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 200.66 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 200.66 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 200.66 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 200.66 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 200.66 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4089d31a-6901-4fe1-a198-8ba4139b9ce0")
-		)
-		(pin "1"
-			(uuid "a1fe9208-d212-4276-bf4f-ba1e82a17b44")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 200.66 143.51 0)
+		(at 200.66 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6415,7 +5368,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa4aabd1-e8b5-45ab-baa6-9031c7d87f4a")
 		(property "Reference" "#PWR024"
-			(at 200.66 149.86 0)
+			(at 200.66 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +5377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 148.59 0)
+			(at 200.66 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +5385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 143.51 0)
+			(at 200.66 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +5394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 143.51 0)
+			(at 200.66 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +5403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 143.51 0)
+			(at 200.66 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,7 +5425,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 170.18 127 0)
+		(at 170.18 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6481,7 +5434,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab4153e5-fa08-4714-9937-901638f95091")
 		(property "Reference" "L6"
-			(at 171.45 125.7299 0)
+			(at 171.45 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,8 +5442,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "91nH"
-			(at 171.45 128.2699 0)
+		(property "Value" "160nH"
+			(at 171.45 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +5452,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 170.18 127 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,8 +5460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 170.18 127 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18ANR16J00D_C140445.pdf"
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +5470,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 170.18 127 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,8 +5478,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C237546"
-			(at 170.18 127 0)
+		(property "LCSC Part Number" "C140445"
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,8 +5487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 170.18 127 0)
+		(property "Manufacturing Part Number" "LQW18ANR16J00D"
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +5680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18nH"
+		(property "Value" "20nH"
 			(at 147.828 128.778 0)
 			(effects
 				(font
@@ -6763,7 +5716,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C24562"
+		(property "LCSC Part Number" "C96730"
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -6772,7 +5725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturing Part Number" "SDCL1005C18NJTDF"
+		(property "Manufacturing Part Number" "SDCL1005C20NJTDF"
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -6926,7 +5879,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 170.18 154.94 0)
+		(at 170.18 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6935,7 +5888,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcff9a90-0ffa-4aa9-8f8d-ebb2d041b7c7")
 		(property "Reference" "R12"
-			(at 172.72 153.6699 0)
+			(at 172.72 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +5897,7 @@
 			)
 		)
 		(property "Value" "1e3"
-			(at 172.72 156.2099 0)
+			(at 172.72 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +5906,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.18 154.94 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,7 +5915,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
-			(at 170.18 154.94 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +5924,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 170.18 154.94 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +5933,7 @@
 			)
 		)
 		(property "Manufacturing Part Number" "0402WGF1001TCE"
-			(at 170.18 154.94 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +5942,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C11702"
-			(at 170.18 154.94 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +5951,7 @@
 			)
 		)
 		(property "MFR.Part" ""
-			(at 170.18 154.94 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +5960,7 @@
 			)
 		)
 		(property "jlcpcb" ""
-			(at 170.18 154.94 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,6 +5978,72 @@
 			(project "rf_lna"
 				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 46.99 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c21de902-d683-4215-98df-4e312b01d0bf")
+		(property "Reference" "#FLG02"
+			(at 46.99 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 46.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d263f23-3f4b-4830-a5f6-fac1838868b6")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7270,7 +6289,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 195.58 152.4 0)
+		(at 195.58 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7278,7 +6297,7 @@
 		(dnp no)
 		(uuid "d6fc10e3-0bed-4f00-921f-180c3834ff22")
 		(property "Reference" "C18"
-			(at 198.12 151.1362 0)
+			(at 193.548 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,7 +6306,7 @@
 			)
 		)
 		(property "Value" "2.2nF"
-			(at 205.486 155.194 0)
+			(at 200.406 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,7 +6315,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 195.58 152.4 0)
+			(at 195.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +6324,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21C222JBFNNNE_C28260.pdf"
-			(at 195.58 152.4 0)
+			(at 195.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +6333,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 195.58 152.4 0)
+			(at 195.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +6342,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C28260"
-			(at 195.58 152.4 0)
+			(at 195.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +6351,7 @@
 			)
 		)
 		(property "Manufacturing Part Number" "CL21C222JBFNNNE"
-			(at 195.58 152.4 0)
+			(at 195.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,94 +6585,6 @@
 			(project "rf_lna"
 				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 200.66 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1f1005c-e8cd-49fb-9eab-39f21dc2b77a")
-		(property "Reference" "L22"
-			(at 201.93 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "91nH"
-			(at 201.93 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 200.66 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-LQW18AN91NG0ZD_C237546.pdf"
-			(at 200.66 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 200.66 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C237546"
-			(at 200.66 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Part Number" "LQW18AN91NG0ZD"
-			(at 200.66 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24e94065-2c18-425f-9821-2a29d721d44b")
-		)
-		(pin "1"
-			(uuid "00996fae-02ef-450a-882f-3659763c1567")
-		)
-		(instances
-			(project "rf_lna"
-				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/bf11edd2-498f-49d9-9095-4425b53f0fb4"
-					(reference "L22")
 					(unit 1)
 				)
 			)
