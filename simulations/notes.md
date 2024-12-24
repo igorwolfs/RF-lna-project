@@ -58,7 +58,33 @@ Removing this inductance while keeping all other inductances intact leads to an 
 - 5.17+2.19j
 
 This is matchable using shifting the resonance point to the left using additional inductance.  Check notion.
+
+## Stability
+There seem to be 2 points where instabilities occur, one at 0.75 GHz, and one at twice that frequency: 1.35 GHz.
+- Adding a 10-ohm resistor seems to stabilize the gain at 1.4 GHz.
+- Addding a 20nH inductor stabilizes the gain across the entire spectrum
+
+However adding this gain messes with the input S-parameter again, and makes rematching a must.
+
+However this didn't fix the whole resonance issue.
+Apparently the problem was that the inductance above the emitter follower was resonating with a emitter capacitor.
+
+
+
 # Simple RF amp
 
 # Impedance Matching
 You're dealing with a bilateral RF amplifier, so make sure to match taking that into account. Check microwaves101.com
+
+Rollet K-factor: 
+(1-POW(abs(S11(v1)),2)- POW(abs(S22(v1)),2)  + POW(abs(S12(v1))*abs(S21(v1)),2)) / (2*abs(abs(S12(v1))) * abs(S21(v1)) )
+-> Important that this factor contains the absolute value, not an complex number.
+
+
+Should be > 1 assures unconditional stability
+Unilateral figure: 
+(abs(S12(v1))*abs(S21(v1))*abs(S11(v1))*abs(S22(v1))) / ((1-pow(abs(S11), 2)) * (1-pow(abs(S22), 2)))
+The unilateral gain should be < 0.1 to provide a decent gain figure.
+
+## Stability
+The amplifier is unconditionally stable just about everywhere.
