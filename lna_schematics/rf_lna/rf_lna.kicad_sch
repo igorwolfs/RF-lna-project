@@ -44,6 +44,44 @@
 		)
 	)
 	(sheet
+		(at 27.94 101.6)
+		(size 92.71 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b5a54e7-0413-4eee-8b17-f9ac70ac33b7")
+		(property "Sheetname" "antenna"
+			(at 27.94 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "antenna.kicad_sch"
+			(at 27.94 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 27.94 43.18)
 		(size 92.71 39.37)
 		(fields_autoplaced yes)
