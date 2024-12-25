@@ -755,6 +755,10 @@
     [
       "33461f31-a1d9-4546-b05c-813aed0038f1",
       "lna"
+    ],
+    [
+      "7b5a54e7-0413-4eee-8b17-f9ac70ac33b7",
+      "antenna"
     ]
   ],
   "text_variables": {}
