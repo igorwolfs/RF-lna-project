@@ -1,4 +1,4 @@
-24417905298817583
+24421375878459735
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98608,6 +98608,20 @@ Varistor VF
 0
 2
 2
+antennas
+ANTENNA_868_915_955_MONOPOLE_PCB
+THIS PACKAGE IS DESIGNED ACCORDING TO: TEXAS INSTRUMENT'S DESIGN NOTE DN024 - 868 MHZ, 915 MHZ, AND 955 MHZ MONOPOLE PCB ANTENNA
+THIS PACKAGE IS DESIGNED ACCORDING TO: TEXAS INSTRUMENT'S DESIGN NOTE DN024 - 868 MHZ, 915 MHZ, AND 955 MHZ MONOPOLE PCB ANTENNA
+0
+8
+1
+antennas
+dn024
+monopole StepUp generated footprint
+
+0
+1
+1
 openems
 antenna_test
 
