@@ -1,0 +1,166 @@
+(footprint "ANTENNA_868_915_955_MONOPOLE_PCB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "THIS PACKAGE IS DESIGNED ACCORDING TO: TEXAS INSTRUMENT'S DESIGN NOTE DN024 - 868 MHZ, 915 MHZ, AND 955 MHZ MONOPOLE PCB ANTENNA")
+	(tags "THIS PACKAGE IS DESIGNED ACCORDING TO: TEXAS INSTRUMENT'S DESIGN NOTE DN024 - 868 MHZ, 915 MHZ, AND 955 MHZ MONOPOLE PCB ANTENNA")
+	(property "Reference" "ANT"
+		(at -17.399 -25.527 0)
+		(layer "F.SilkS")
+		(uuid "10b2a094-fa17-4f1d-a3c9-6548847c0eb1")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ANTENNA_868_915_955_MONOPOLE_PCB"
+		(at -0.254 1.651 0)
+		(layer "F.Fab")
+		(uuid "1b833348-02d3-47d6-bea1-1b8f73deb902")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19aac9f2-e474-44d1-aa29-d871415ebc6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1610710c-a022-462c-9bd9-198fe3baaf88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02e7ce3a-8e6f-4249-81fc-43b3ef82ff45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -19.05 -24.003)
+		(end -19.05 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "339999ee-643d-4369-bb97-1b41b398f777")
+	)
+	(fp_line
+		(start -19.05 0)
+		(end 19.05 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e08841dd-4d34-49c9-b7cd-af731b6779db")
+	)
+	(fp_line
+		(start 19.05 -24.003)
+		(end -19.05 -24.003)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5f713a45-d14d-4fa2-b614-b00fd2279e71")
+	)
+	(fp_line
+		(start 19.05 0)
+		(end 19.05 -24.003)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "67ef0927-46f0-47eb-9e9f-0ff59405a250")
+	)
+	(fp_text user "! Keep Out Zone !"
+		(at 0 -12.7 45)
+		(layer "Dwgs.User")
+		(uuid "3c165942-f014-4c48-9b9b-f1b27f54e758")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -18 -15.5)
+		(size 2 7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a21361b1-97a7-4e7e-b1f5-7f87e71c329c")
+	)
+	(pad "1" smd rect
+		(at 0 -23)
+		(size 38 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7ced014a-fc24-4b5d-8c13-2c53c9d2e0f0")
+	)
+	(pad "1" smd rect
+		(at 0 -18)
+		(size 38 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1056c599-c4a7-4933-baca-b7e777026522")
+	)
+	(pad "1" smd rect
+		(at 0 -13)
+		(size 38 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2b701eb8-fb9e-4f84-b4e6-d4bdd0f857fc")
+	)
+	(pad "1" smd rect
+		(at 0 -4.5)
+		(size 2 9)
+		(layers "F.Cu" "F.Mask")
+		(uuid "269580b8-21b7-4b2b-a127-f52bdbae3adf")
+	)
+	(pad "1" smd rect
+		(at 9 -8)
+		(size 20 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d99a57b4-dec8-463b-a44e-b9d5d050248c")
+	)
+	(pad "1" smd rect
+		(at 18 -20.5)
+		(size 2 7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ea3cc5e0-0612-4e45-8337-a05bf875e5ae")
+	)
+	(pad "1" smd rect
+		(at 18 -10.5)
+		(size 2 7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7277457c-e523-40a3-9d24-0cc42d3c9813")
+	)
+)

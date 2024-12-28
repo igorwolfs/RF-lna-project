@@ -269,6 +269,300 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0.762 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Small_0_1"
+				(arc
+					(start 0 -2.032)
+					(mid 0.5058 -1.524)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 0.508)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 1.524)
+					(end 0 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -366,9 +660,151 @@
 			)
 		)
 	)
+	(junction
+		(at 152.4 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06326a1d-3161-43f4-8961-7bfecc6a123c")
+	)
+	(junction
+		(at 142.24 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72f107e6-7ef1-44bf-8e55-f230a455646c")
+	)
 	(wire
 		(pts
-			(xy 177.8 85.09) (xy 180.34 85.09)
+			(xy 152.4 119.38) (xy 152.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b13aa65-f3cc-4334-a341-d1eb31a8b520")
+	)
+	(wire
+		(pts
+			(xy 123.19 114.3) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b18ae5-29fd-47ec-9172-39f45a18aa81")
+	)
+	(wire
+		(pts
+			(xy 147.32 64.77) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d15c6f-6aea-4219-8623-148e224cfb1d")
+	)
+	(wire
+		(pts
+			(xy 123.19 111.76) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a11db9-e846-4cc5-a939-a788f04c2b39")
+	)
+	(wire
+		(pts
+			(xy 130.81 64.77) (xy 142.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0bb061-0f51-4cc3-a5c0-2e1da0dde2df")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55beeb99-ff81-4c4f-8553-bd2f029f3e1d")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704a0d06-aef1-49b6-bdb5-71b8a1a6121b")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 158.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8136ac41-38e3-4c5e-8530-464de188f0be")
+	)
+	(wire
+		(pts
+			(xy 130.81 111.76) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858215f1-4379-4971-a8b5-580ee933f6ea")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 142.24 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879f19c3-c0e0-4e08-874e-f5b493b27f05")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed20d09-d290-4cf6-906b-4826ca07820d")
+	)
+	(wire
+		(pts
+			(xy 149.86 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38e5497-ca79-4679-bbbc-6204cda2dac3")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b811d7ca-bc9a-4b9f-9d74-92f6d1bc2715")
+	)
+	(wire
+		(pts
+			(xy 123.19 64.77) (xy 125.73 64.77)
 		)
 		(stroke
 			(width 0)
@@ -378,17 +814,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 85.09) (xy 213.36 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3aea7c0-4612-4cc9-ac9d-4d8f760a84e8")
-	)
-	(wire
-		(pts
-			(xy 177.8 87.63) (xy 177.8 85.09)
+			(xy 123.19 67.31) (xy 123.19 64.77)
 		)
 		(stroke
 			(width 0)
@@ -397,8 +823,20 @@
 		(uuid "fff70a27-39c8-41cd-a730-6c34ec48f38c")
 	)
 	(rectangle
-		(start 144.78 67.31)
-		(end 242.57 102.87)
+		(start 90.17 93.98)
+		(end 187.96 129.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8bdde18-4000-4407-928c-7c31dc6c7fd2)
+	)
+	(rectangle
+		(start 90.17 46.99)
+		(end 187.96 82.55)
 		(stroke
 			(width 0)
 			(type default)
@@ -410,7 +848,17 @@
 	)
 	(text "Antenna"
 		(exclude_from_sim no)
-		(at 149.86 70.612 0)
+		(at 95.25 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ced16e9-0a73-4176-bdee-5406df31fdd6")
+	)
+	(text "Impedance"
+		(exclude_from_sim no)
+		(at 96.52 49.276 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -441,16 +889,235 @@
 		(uuid "b6e3a912-1de4-4d2e-9ed0-197d6b4c61ca")
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 182.88 85.09 180)
+		(lib_id "power:GND")
+		(at 123.19 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7c4ee04-5cfb-4860-95f2-07bcf71eba44")
-		(property "Reference" "J7"
-			(at 177.546 83.058 0)
+		(fields_autoplaced yes)
+		(uuid "199fd09e-c871-4367-8cf1-d52271fa7eb4")
+		(property "Reference" "#PWR028"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c948ba37-eab7-496b-954f-297fae725c7c")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 147.32 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33a1cf9c-d875-4e37-ab7d-5f70f636e8ef")
+		(property "Reference" "L7"
+			(at 151.1301 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8nH"
+			(at 143.002 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-LQG15HS1N8S02D_C77107.pdf"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C77107"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" "LQG15HS1N8S02D"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29223a98-b3ab-4ff2-a755-480ab0c8fcaf")
+		)
+		(pin "1"
+			(uuid "723cced2-f651-4179-92b0-2112acf94340")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4df0d288-8c1f-48cc-8bce-97da8beff47d")
+		(property "Reference" "#PWR030"
+			(at 152.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "299981fa-359a-484f-a16b-b78b7b23506b")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 144.78 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9038e15a-a8f6-42a7-9cf7-563c566df8e4")
+		(property "Reference" "J9"
+			(at 150.114 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +1125,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 180.848 80.772 0)
+			(at 139.446 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +1133,7 @@
 			)
 		)
 		(property "Footprint" "Library:SMA_Amphenol_901-143_Vertical"
-			(at 182.88 85.09 0)
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -475,7 +1142,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405210917_BAT-WIRELESS-BWSMA-KE-Z001_C496549.pdf"
-			(at 182.88 85.09 0)
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +1151,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 182.88 85.09 0)
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +1160,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C496549"
-			(at 182.88 85.09 0)
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,7 +1169,243 @@
 			)
 		)
 		(property "Manufacturing Part Number" "BWSMA-KE-Z001"
-			(at 182.88 85.09 0)
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5846738-6395-429a-885e-7a80a43a50ba")
+		)
+		(pin "1"
+			(uuid "51b7fa49-cdb6-443b-a620-7db50066e012")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "910748a9-2e6b-4046-80ea-5baf74f4b073")
+		(property "Reference" "#PWR029"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ca68807-fa44-41d4-bacb-5196a450db24")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 128.27 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0d7f48d-bd19-425f-8c99-8c0cc6e6f58d")
+		(property "Reference" "J8"
+			(at 122.936 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial_Small"
+			(at 126.238 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SMA_Amphenol_901-143_Vertical"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405210917_BAT-WIRELESS-BWSMA-KE-Z001_C496549.pdf"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C496549"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" "BWSMA-KE-Z001"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b7fd373-c778-4400-8f69-f8bf423992af")
+		)
+		(pin "1"
+			(uuid "01128334-d922-4435-afae-88c3b3d24962")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 128.27 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7c4ee04-5cfb-4860-95f2-07bcf71eba44")
+		(property "Reference" "J7"
+			(at 122.936 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial_Small"
+			(at 126.238 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SMA_Amphenol_901-143_Vertical"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405210917_BAT-WIRELESS-BWSMA-KE-Z001_C496549.pdf"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C496549"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" "BWSMA-KE-Z001"
+			(at 128.27 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,16 +1430,16 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 213.36 80.01 0)
+		(at 158.75 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b833393a-cf11-4580-8f3d-98ff7e8bd273")
-		(property "Reference" "AE1"
-			(at 215.9 79.3749 0)
+		(uuid "ad739dbd-5b18-4e45-802b-f084cc2d9305")
+		(property "Reference" "AE2"
+			(at 161.29 106.0449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +1448,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 215.9 81.9149 0)
+			(at 161.29 108.5849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,8 +1456,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 213.36 80.01 0)
+		(property "Footprint" "antennas:dn024"
+			(at 158.75 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,7 +1466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 80.01 0)
+			(at 158.75 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,7 +1475,25 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 213.36 80.01 0)
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" ""
+			(at 158.75 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,12 +1502,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c561c8b-a8c4-414d-84da-e1e09a20205c")
+			(uuid "80559309-ea9a-4e19-9e41-b045a4aa8769")
 		)
 		(instances
-			(project ""
+			(project "rf_lna"
 				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
-					(reference "AE1")
+					(reference "AE2")
 					(unit 1)
 				)
 			)
@@ -594,7 +1515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 87.63 0)
+		(at 123.19 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -603,7 +1524,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2911ae2-7804-4ed4-83d4-45bce09fd770")
 		(property "Reference" "#PWR02"
-			(at 177.8 93.98 0)
+			(at 123.19 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +1533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 92.71 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +1541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 87.63 0)
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +1550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 87.63 0)
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,7 +1559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 87.63 0)
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,6 +1574,247 @@
 			(project "rf_lna"
 				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 152.4 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd83f606-3860-4cf9-a78d-517771897bd8")
+		(property "Reference" "C21"
+			(at 154.94 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7pF"
+			(at 154.94 118.1162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081611_Murata-Electronics-GRM1555C1H2R7CA01D_C76963.pdf"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C76963"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" "GRM1555C1H2R7CA01D"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40e546be-16ad-4dc2-8796-a6e9a1824f96")
+		)
+		(pin "1"
+			(uuid "4f0369e3-9644-4d49-9f5f-7a3c68b6abf4")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7c1749b-9358-46ee-8dcd-a19c238ce1b8")
+		(property "Reference" "#PWR011"
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c26dbf7-fc44-4a40-a74e-1e63305f4da2")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de444db6-c570-4be0-8f31-7ad7e772ad87")
+		(property "Reference" "C13"
+			(at 144.78 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 133.858 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Part Number" ""
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60e12cb9-d15b-4ae1-8b80-e63d47853c84")
+		)
+		(pin "1"
+			(uuid "cc6baae7-35ca-46e8-83ef-2155619532d3")
+		)
+		(instances
+			(project "rf_lna"
+				(path "/d07ac92b-84da-4ed3-8231-715d8aa38a44/7b5a54e7-0413-4eee-8b17-f9ac70ac33b7"
+					(reference "C13")
 					(unit 1)
 				)
 			)
