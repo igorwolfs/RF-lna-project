@@ -13,7 +13,6 @@ So required charge over half a period is (25.6-18.4) * (T/2) =  (25.6-18.4)e-3/ 
 Make sure the capacitor arrays carry at least that amount of charge at 5 V.
 So 4.15 pC / 5 V < 1 pF, so the capacitor needs to be at least 1 pF (easy).
 
-
 ## Max voltage
 
 - Supply voltage: 5 V
