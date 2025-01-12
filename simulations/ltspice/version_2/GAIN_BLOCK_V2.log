@@ -1,0 +1,16 @@
+Stray ".ends" card: .ends bfp640
+LTspice 24.0.12 for Windows
+Circuit: * C:\users\iwolfs\Favorites\simulations\ltspice\version_2\GAIN_BLOCK_V2.asc
+Start Time: Sun Jan 12 00:54:24 2025
+Number of points reduced from 100000 to 65535.
+solver = Normal
+Maximum thread count: 12
+tnom = 25
+temp = 27
+method = modified trap
+gmin = 1e-12
+Direct Newton iteration for .op point succeeded.
+.meas ac delta find (s11(v1) 
+  Error: FIND can not be evaluated over an interval.
+Total elapsed time: 1.229 seconds.
+
