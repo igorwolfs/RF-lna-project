@@ -2,3 +2,14 @@ resources/an/*
 simulations/*.raw
 simulations/*.log
 simulations/*.plt
+
+*.zip
+**/*.vtk
+**/*.vtr
+**/*.vtp
+**/et
+**/ht
+**/*.h5
+**/.vscode
+*.xml
+*.vtp
