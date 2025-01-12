@@ -1,7 +1,7 @@
 resources/an/*
-simulations/*.raw
-simulations/*.log
-simulations/*.plt
+**.raw
+**.log
+**.plt
 
 *.zip
 **/*.vtk
