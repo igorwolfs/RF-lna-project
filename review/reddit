@@ -1,0 +1,15 @@
+Hi all, I'm an RF-noob looking for some feedback on a couple of small RF projects I'm combining together into a single PCB.
+Top left: 2-stage cascode LNA
+Top right: single gain stage LNA
+bottom: antenna (hopefully) for 868 - 915 MHz
+Cascode
+Single-gain stage
+I tuned both in LTSpice, not taking into account the phase-shift and transmission-line loss, since I'm not sure if these parasitics are dealt with in simulation, or mostly tuned when matching. I'm planning on adding some damping resistors to the single-gain stage (currently 0 ohm) to counter instabilities I encountered in my simulation.
+I treated the RF-traces in the LNA as coplanar waveguides, ground plane on L2.
+Antenna
+I tuned it in openEMS (which is great by the way), impedance and s-parameter plots attached. Appropriate tuning will be done on arrival, I hope to be able to cut off parts of it in case the resonance doesn't reach to 915 MHz.
+I plan to later cut the antenna part off from the LNA-part of the PCB.
+Below the antenna there's no ground plane, below the stitched ground planes of the antenna (L1-L2) there are no ground planes either.
+Main concerns
+Everything from (antenna) layout to component choice and LNA design itself. Would be great to get some tips and tricks on how to design a board for easy impedance matching.
+Thanks a lot!

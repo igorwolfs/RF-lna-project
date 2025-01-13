@@ -88,3 +88,9 @@ The unilateral gain should be < 0.1 to provide a decent gain figure.
 
 ## Stability
 The amplifier is unconditionally stable just about everywhere.
+
+# Modelling
+Apparently there's a better way to model the transistors, the best way is to simply get the touchstone files from the infineon website, and import the whole thing as a 2-port network with these s-parameters as characterization.
+
+Problem however is that we only have VCE characterization with constant Ic, so the question becomes 
+- How do you connect 3 terminals to a 2-terminal circuit (base, emitter collector)?
