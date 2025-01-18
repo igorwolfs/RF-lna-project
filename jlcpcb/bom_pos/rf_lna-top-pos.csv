@@ -1,5 +1,4 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-AE1,inverted_F,iw_meandered_monopole,120.1,-129.75,-90,top
 C1,470nF,C_0603_1608Metric,117.8125,-66.84,-90,top
 C2,100nF,C_0402_1005Metric,124.7,-67.5,0,top
 C3,100pF,C_0402_1005Metric,124.7,-69.55,0,top
@@ -50,21 +49,12 @@ U7,BFP640,BFP640,74.9875,-73.05,0,top
 U8,BFP640,BFP640,77.9,-67.7,0,top
 Z1,3.6pF,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,80.4,-68.7,180,top
 Z2,1pF,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,68.7,-74,0,top
-Z3,DNP,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,67.05,-74.625,-90,top
 Z4,3.6pF,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,72.1,-74,180,top
 Z5,3.6pF,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,83.8,-68.7,180,top
-Z6,15nH (DNP),R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,82.1,-69.3025,90,top
-Z7,DNP,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,85.5,-69.3,90,top
 Z8,1pF,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,125.75,-72.6,180,top
 Z9,1pF,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,129.125,-72.6,180,top
-Z10,24nH (DNP),R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,127.45,-73.225,90,top
-Z11,DNP,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,130.775,-73.225,90,top
 Z12,1pF,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,114.5225,-74.8,180,top
-Z13,DNP,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,112.82,-75.43,90,top
-Z14,16nH (DNP),R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,116.275,-75.45,90,top
 Z15,20nH,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,110.55,-130.52,90,top
-Z16,6.8pF (DNP),R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,118.075,-74.795,180,top
-Z17,DNP,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,107.29,-130.51,90,top
 Z18,0,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,112.19,-129.89,180,top
 Z19,3.6pF,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,108.91,-129.89,180,top
 Z20,20nH,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,70.37,-74.63,90,top
