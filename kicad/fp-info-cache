@@ -1,4 +1,4 @@
-24659774995453785
+24663247178164059
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65821,6 +65821,13 @@ BFP640
 4
 3
 Library
+MountingHole_1.152mm_jlcpcb
+Mounting Hole 2.7mm, no annular
+mounting hole 2.7mm no annular
+0
+0
+0
+Library
 SMA_Amphenol_901-143_Vertical
 
 
@@ -99371,6 +99378,13 @@ THIS PACKAGE IS DESIGNED ACCORDING TO: TEXAS INSTRUMENT'S DESIGN NOTE DN024 - 86
 0
 8
 1
+antennas
+MountingHole_1.152mm_jlcpcb
+Mounting Hole 2.7mm, no annular
+mounting hole 2.7mm no annular
+0
+0
+0
 antennas
 dn024
 monopole StepUp generated footprint

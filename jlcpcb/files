@@ -1,8 +1,0 @@
-
-TODO:
-1. FIX PCB ASSEMBLY PARTS:
-- Error
-- The below parts won't be assembled due to data missing.
-- Z17,Z10,Z3,Z11,Z6,Z14,AE1,Z7,Z13,Z16 designators don't exist in the BOM file.
-2. replace C76953 by a more prevalent capacitor (there's not enough of them)
-3. Change the traces to back to 0.3 mm thickness -> it seems that economic PCBA works only with that trace thickness.
