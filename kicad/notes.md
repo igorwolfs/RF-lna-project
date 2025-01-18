@@ -110,4 +110,11 @@ For some reason no connection to the antenna is possible
 
 ## Thermal relieves
 Since we're probably going to have to solder lots of matching components, I'm pro thermal relieves for the smaller components.
-b
+
+# Todo before ordering
+- Component check: 
+    - Do all components have the expected value
+    - Do all components have the expected footprint size
+- Gerber check
+    - Are the groundplanes adequately removed, is there ground plane where there needs to be.
+    - Are the components connected as they are supposed to?

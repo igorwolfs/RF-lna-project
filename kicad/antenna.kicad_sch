@@ -1344,7 +1344,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8f1ae4d9-5a72-4970-aeaa-ea708a5fd37f")
 		(property "Reference" "Z17"
