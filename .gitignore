@@ -13,3 +13,5 @@ resources/an/*
 **/.vscode
 *.xml
 *.vtp
+
+pyenv/

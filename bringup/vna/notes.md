@@ -51,7 +51,7 @@ Terminate both ends with a known 50 ohm end, check reflections.
 Making sure there is no input signal between ports (measuring crosstalk / leakage in the system) -> often also by ataching 2 isolated loads.
 - An isolated coax connector comes with the NanoVNA
 
-#### Thurefir Calibration
+#### Thrurefir Calibration
 
 
 ## Electrical delay
@@ -77,6 +77,16 @@ For this purpose the FULL calibration needs to be done!!!
 - The group delay / Phase shift for the reference coax should be set to -1.6ns.
 - The group delay / Phase shift for the is offset by an "offset delay"-parameter of -1.7 ns.
 	- The group delay is clearly a sinusoidal function of frequency in this case, more than the default supplied coax.
+
+
+## Naming conventions
+- S1P files are named as <parameter_measured>_<coax/nocoax>_<measurement_version>.s1p
+
+e.g.: S11_coax_v0.s1p means
+- Means the single-port measurement was done with 
+	- a coax attached to the port
+	- the calibration done with the coax attached
+	- the measurement version: the notes should describe what exactly was changed with respect to the previous version.
 
 # Questions
 ## 2-port group delay
