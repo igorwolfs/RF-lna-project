@@ -10,3 +10,4 @@ It seems like the difference when using a coax cable for calibration and measure
 ## Buy
 - An additional coax but shorter (5 cm instead of 33 cm)
 - An additional load end for calibration
+- Buy a DC blocking circuit for use with the LiteVNA
