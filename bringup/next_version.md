@@ -11,6 +11,8 @@
 - Make sure your antenna simulation is accurate enough (e.g.: include stitched ground planes in sim)
 - Make sure your HF-SS transistor simulation is accurate (use Qucs, Sckit-RF)
 
+## Future projects
+- [Oscillator measuring](https://youtu.be/G9zZRNzhsEE?si=bZdA5BlI5b6n5sOV)
 
 # Sources:
 - [Stackoverflow, placing RF testpoints](https://electronics.stackexchange.com/questions/560225/where-should-i-place-my-rf-test-point?fbclid=IwY2xjawJbKZVleHRuA2FlbQIxMAABHawI_kbqkomStI-Y4tLwu_u_v19jUvDQYggQsGq0M43ViGhQL__Cy7Yblg_aem_1vwwciJbDrnEQNaRCisDlQ)
