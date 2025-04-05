@@ -29,5 +29,8 @@ The thought-process can be found here [notes.md](../../simulations/ltspice/notes
 ## Phyiscal design
 Check out this [README.md](../../kicad/README.md).
 
+## Bringup
+Check out jupyter-notebooks in the cascode [bringup folder](../../bringup/cascode/) and the single-gain stage [bringup folder](../../bringup/single_gain_stage/) for current progress.
+
 ## Review
 Before production, the images from the [review-folder](../../review/cascode/) were posted to [reddit](https://www.reddit.com/r/PrintedCircuitBoard/comments/1i014uy/rf_pcb_assortment_review/) for review.
