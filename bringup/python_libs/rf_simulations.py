@@ -269,7 +269,7 @@ def interpolate_2d_network(network_dict, target_vce, target_ic, interp_kind='lin
     return result_network
 
 
-def convert_to_3port_with_grounded_emitter(transistor_2port):
+def convert_port_2to3_ce(transistor_2port, I_E, V_T=0.026): # ASSUME V_T = 26e-3
     """
     Converts a 2-port transistor S-parameter network into a 3-port system
     where the emitter is explicitly represented as the third port connected to ground.
@@ -289,9 +289,28 @@ def convert_to_3port_with_grounded_emitter(transistor_2port):
 
     # Populate the original S-parameters into the new matrix
     s_3port[:, :2, :2] = transistor_2port.s
-    s_3port[:, 2, 2] = -1 # Short
+
+
+    # Approximate intrinsic emitter resistance
+    r_e = (V_T / I_E) * np.ones_like(s_3port[:, 0, 0]) # V_T = 26mV
+    print( np.ones_like(s_3port[:, 0, 0]))
+    print(Z0[0])
+    z0_arr = np.ones_like(s_3port[:, 0, 0]) * Z0[0][0] # Assume ssame Z0 for all ports
+    S_em_11 = r_e / (2*z0_arr + r_e)
+    S_em_21 = 2*z0_arr[0] / (2*z0_arr+ r_e)
+    s_3port[:, 2, 2] = S_em_11       # self reflection at emitter port.
+    
+    # The coupling from emitter to the other ports is given by S21_em.
+    s_3port[:, 0, 2] = S_em_21        # coupling from port 0 (base) to emitter.
+    s_3port[:, 1, 2] = S_em_21        # coupling from port 1 (collector) to emitter.
+
+    # And by reciprocity, the coupling from emitter back to ports 0 and 1:
+    s_3port[:, 2, 0] = S_em_21
+    s_3port[:, 2, 1] = S_em_21
+
 
     z0_new = np.array([Z0[:,0], Z0[:,1], Z0[:,0]]).reshape(Z0.shape[0], 3)
+
 
     # Create a new Network for the 3-port system
     transistor_3port = rf.Network(
@@ -305,111 +324,49 @@ def convert_to_3port_with_grounded_emitter(transistor_2port):
 
 
 DBG = False
-# Example usage:
-# ntwk_cb = convert_common_emitter_to_common_base_3port(ntwk_common_emitter)
-import numpy as np
-import skrf as rf
 
-def convert_common_emitter_to_common_collector_3port(ntwk):
-    """
-    Convert a 3-port common-emitter network into a 3-port common-collector
-    (emitter follower) network by reordering the ports.
-    
-    Assumes that the original network (ntwk) has ports ordered as:
-        Port 0: Base
-        Port 1: Collector
-        Port 2: Emitter (AC ground)
-    
-    For a common-collector configuration, we typically take:
-        New Port 0: Base (input)
-        New Port 1: Emitter (output)
-        New Port 2: Collector (the extra port, e.g. for collector degeneration)
-    
-    This is achieved by reordering the ports as: new_order = [0, 2, 1].
-    
-    Parameters
-    ----------
-    ntwk : skrf.Network
-        A 3-port network measured in common-emitter configuration.
-        
-    Returns
-    -------
-    ntwk_cc : skrf.Network
-        A 3-port network with ports reordered for common-collector configuration.
-    """
-    # Check that the network is 3-port.
-    if ntwk.s.shape[1] != 3 or ntwk.s.shape[2] != 3:
-        raise ValueError("The input network must be a 3-port network.")
-    
-    new_order = [0, 2, 1]  # Base, then Emitter, then Collector.
-    
-    # Reorder the S-parameters
-    S_reordered = ntwk.s[:, new_order, :][:, :, new_order]
-    if DBG:
-        print(f"ntwk_shape: {ntwk.s.shape}")
-        print(f"BEFORE: {ntwk.s[0]}\r\nAFTER: {S_reordered[0]}")
-    # Create a copy and update its S-parameters and name.
-    ntwk_cc = ntwk.copy()
-    ntwk_cc.s = S_reordered
-    ntwk_cc.name = ntwk.name + "_cc_convert"
-    
-    # If z0 is provided as a 1D or 2D array, reorder it similarly.
-    # For simplicity, we assume z0 is the same for all ports.
-    if ntwk.z0 is not None:
-        if isinstance(ntwk.z0, np.ndarray) and ntwk.z0.ndim == 1 and len(ntwk.z0) == 3:
-            ntwk_cc.z0 = ntwk.z0[new_order]
-        elif isinstance(ntwk.z0, np.ndarray) and ntwk.z0.ndim == 2 and ntwk.z0.shape[0] == 3:
-            ntwk_cc.z0 = ntwk.z0[new_order, :][:, new_order]
-    
-    return ntwk_cc
 
-def convert_common_emitter_to_common_base_3port(ntwk):
-    """
-    Convert a 3-port common-emitter network into a 3-port common-base network
-    by reordering the ports.
-    
-    Assumes that the original network (ntwk) has ports ordered as:
-        Port 0: Base
-        Port 1: Collector
-        Port 2: Emitter (AC ground)
-    
-    For a common-base configuration, the base becomes the common (ground) node.
-    A typical reordering is:
-        New Port 0: Emitter (input)
-        New Port 1: Collector (output)
-        New Port 2: Base (common)
-    
-    This is achieved by reordering the ports as: new_order = [2, 1, 0].
-    
-    Parameters
-    ----------
-    ntwk : skrf.Network
-        A 3-port network measured in common-emitter configuration.
-        
-    Returns
-    -------
-    ntwk_cb : skrf.Network
-        A 3-port network with ports reordered for common-base configuration.
-    """
-    # Verify that ntwk is a 3-port network.
-    if ntwk.s.shape[1] != 3 or ntwk.s.shape[2] != 3:
+def convert_ce2cb(ce_ntwk):
+    # Input must be a 3-port CE network
+    if ce_ntwk.s.shape[1] != 3 or ce_ntwk.s.shape[2] != 3:
         raise ValueError("The input network must be a 3-port network.")
-    
-    new_order = [2, 1, 0]  # Emitter, Collector, then Base.
-    S_reordered = ntwk.s[:, new_order, :][:, :, new_order]
-    if DBG:
-        print(f"ntwk_shape: {ntwk.s.shape}")
-        print(f"BEFORE: {ntwk.s[0]}\r\nAFTER: {S_reordered[0]}")
-    # Create a new network with the reordered S-parameters.
-    ntwk_cb = ntwk.copy()
+    S_reordered = np.zeros_like(ce_ntwk.s)
+    ce_denom = 1 / (1 + ce_ntwk.s[:, 0, 0])
+    S_reordered[:, 0, 0] = ce_ntwk.s[:, 2, 2] - (ce_ntwk.s[:, 2, 1] * ce_ntwk.s[:, 1, 2]) * ce_denom
+    S_reordered[:, 0, 1] = ce_ntwk.s[:, 2, 1] - (ce_ntwk.s[:, 2, 0] * ce_ntwk.s[:, 0, 1]) * ce_denom
+    S_reordered[:, 1, 0] = ce_ntwk.s[:, 1, 2] - (ce_ntwk.s[:, 1, 0] * ce_ntwk.s[:, 0, 2]) * ce_denom
+    S_reordered[:, 1, 1] = ce_ntwk.s[:, 1, 1] - (ce_ntwk.s[:, 1, 0] * ce_ntwk.s[:, 0, 1]) * ce_denom
+    S_reordered[:, 2, 2] = -1 # SHORT
+
+    Z0 = ce_ntwk.z0 # ASSUME ALL Z0 the same
+    z0_new = np.array([Z0[:,0], Z0[:,1], Z0[:,0]]).reshape(Z0.shape[0], 3)
+
+
+    ntwk_cb = ce_ntwk.copy()
     ntwk_cb.s = S_reordered
-    ntwk_cb.name = ntwk.name + "_cb_convert"
-    
-    # Reorder the characteristic impedance vector/matrix if applicable.
-    if ntwk.z0 is not None:
-        if isinstance(ntwk.z0, np.ndarray) and ntwk.z0.ndim == 1 and len(ntwk.z0) == 3:
-            ntwk_cb.z0 = ntwk.z0[new_order]
-        elif isinstance(ntwk.z0, np.ndarray) and ntwk.z0.ndim == 2 and ntwk.z0.shape[0] == 3:
-            ntwk_cb.z0 = ntwk.z0[new_order, :][:, new_order]
-    
+    ntwk_cb.name = ce_ntwk.name + "_cb_convert"
+    ntwk_cb.z0 = z0_new
     return ntwk_cb
+
+
+def convert_ce2cc(ce_ntwk):
+    # Input must be a 3-port CE network
+    if ce_ntwk.s.shape[1] != 3 or ce_ntwk.s.shape[2] != 3:
+        raise ValueError("The input network must be a 3-port network.")
+    S_reordered = np.zeros_like(ce_ntwk.s)
+    cc_denom = 1 / (1 + ce_ntwk.s[:, 1, 1])
+    S_reordered[:, 0, 0] = ce_ntwk.s[:, 0, 0] - (ce_ntwk.s[:, 0, 1] * ce_ntwk.s[:, 1, 0]) * cc_denom
+    S_reordered[:, 0, 1] = ce_ntwk.s[:, 0, 2] - (ce_ntwk.s[:, 0, 1] * ce_ntwk.s[:, 1, 2]) * cc_denom
+    S_reordered[:, 1, 0] = ce_ntwk.s[:, 2, 0] - (ce_ntwk.s[:, 2, 1] * ce_ntwk.s[:, 1, 0]) * cc_denom
+    S_reordered[:, 1, 1] = ce_ntwk.s[:, 2, 2] - (ce_ntwk.s[:, 2, 1] * ce_ntwk.s[:, 1, 2]) * cc_denom
+    S_reordered[:, 2, 2] = -1 # SHORT
+
+    Z0 = ce_ntwk.z0 # ASSUME ALL Z0 the same
+    z0_new = np.array([Z0[:,0], Z0[:,1], Z0[:,0]]).reshape(Z0.shape[0], 3)
+
+
+    ntwk_cc = ce_ntwk.copy()
+    ntwk_cc.s = S_reordered
+    ntwk_cc.name = ce_ntwk.name + "_cc_convert"
+    ntwk_cc.z0 = z0_new
+    return ntwk_cc
