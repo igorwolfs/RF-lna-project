@@ -58,7 +58,7 @@ def build_T_match_network(C1_val, L_val, C2_val, freq, band_ntwk, z0=50):
         [(L_SH, 1), (GND, 0)]
     ]
 
-    ckt = rf.Circuit(connections, name='L-match', frequency=freq)
+    ckt = rf.Circuit(connections, name='T-match', frequency=freq)
     return ckt
 
 

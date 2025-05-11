@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d07ac92b-84da-4ed3-8231-715d8aa38a44")
 	(paper "A4")
 	(lib_symbols
@@ -83,6 +83,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -165,6 +166,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(symbol
@@ -744,6 +746,10 @@
 	(sheet
 		(at 143.51 43.18)
 		(size 102.87 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -782,6 +788,10 @@
 	(sheet
 		(at 27.94 101.6)
 		(size 92.71 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -820,6 +830,10 @@
 	(sheet
 		(at 27.94 43.18)
 		(size 92.71 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -860,4 +874,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
