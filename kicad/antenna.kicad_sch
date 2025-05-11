@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "00072c81-085a-4326-86a9-c6a4671d96c9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -100,9 +104,9 @@
 			)
 			(symbol "Conn_Coaxial_Small_1_1"
 				(arc
-					(start -1.1916 -0.6311)
-					(mid 0.327 -1.3081)
-					(end 1.3484 0.0039)
+					(start 1.3484 0.0039)
+					(mid 0.327 -1.308)
+					(end -1.1916 -0.6311)
 					(stroke
 						(width 0.3048)
 						(type default)
@@ -112,9 +116,9 @@
 					)
 				)
 				(arc
-					(start 1.3484 -0.0039)
+					(start -1.1916 0.6311)
 					(mid 0.327 1.3081)
-					(end -1.1916 0.6311)
+					(end 1.3484 -0.0039)
 					(stroke
 						(width 0.3048)
 						(type default)
@@ -160,11 +164,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -282,12 +291,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -378,11 +392,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "rf_lna:inverted_F"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -442,33 +461,9 @@
 			)
 			(symbol "inverted_F_0_1"
 				(arc
-					(start -0.508 -1.143)
-					(mid -0.8429 -2.1194)
-					(end 0 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 0 -2.667)
-					(mid 0.7989 -2.1052)
-					(end 0.508 -1.143)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 0)
-					)
+					(mid -0.8485 -2.1032)
+					(end -0.508 -1.143)
 					(stroke
 						(width 0)
 						(type default)
@@ -491,10 +486,57 @@
 				)
 				(polyline
 					(pts
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -1.143)
+					(mid 0.8046 -2.0885)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.762 -1.905) (xy 2.54 -1.905)
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -511,29 +553,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.762 -1.905)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -575,7 +594,74 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 90.17 93.98)
+		(end 187.96 129.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8bdde18-4000-4407-928c-7c31dc6c7fd2)
+	)
+	(rectangle
+		(start 90.17 46.99)
+		(end 187.96 82.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad6c406f-23ac-45f5-82d0-ac5577a45b16)
+	)
+	(text "Antenna"
+		(exclude_from_sim no)
+		(at 95.25 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ced16e9-0a73-4176-bdee-5406df31fdd6")
+	)
+	(text "Impedance"
+		(exclude_from_sim no)
+		(at 96.52 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4734a74a-3d03-4495-9c89-38bd01fb7f08")
+	)
+	(text "Antenna Notes:\n- LoRaWan\n	- 868 MHz (EU)\n	- 915 MHz (AM)\n- GNSS (GPS) Frequency is \n	- For L1: 1575.42\n	- For L2: 1227.6\n	- For L5: 1176.45\n- The stackup for the first 3 layers\n	- 0.035 mm (Cu)\n	- 0.2104 mm (Prepreg - 7628*1)\n	- 0.0152 mm (Cu)\nLink: https://jlcpcb.com/impedance"
+		(exclude_from_sim no)
+		(at 21.082 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b2f1871-3779-4a81-8a2b-f3dfa34ee091")
+	)
+	(text "Notes:\n- The dielectric constant is 4.4\n- The stackup for the first 3 layers\n	- 0.035 mm (Cu)\n	- 0.2104 mm (Prepreg - 7628*1)\n	- 0.0152 mm (Cu)\nLink: https://jlcpcb.com/impedance"
+		(exclude_from_sim no)
+		(at 18.034 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6e3a912-1de4-4d2e-9ed0-197d6b4c61ca")
 	)
 	(junction
 		(at 139.7 111.76)
@@ -758,72 +844,6 @@
 			(type default)
 		)
 		(uuid "fff70a27-39c8-41cd-a730-6c34ec48f38c")
-	)
-	(rectangle
-		(start 90.17 93.98)
-		(end 187.96 129.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a8bdde18-4000-4407-928c-7c31dc6c7fd2)
-	)
-	(rectangle
-		(start 90.17 46.99)
-		(end 187.96 82.55)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ad6c406f-23ac-45f5-82d0-ac5577a45b16)
-	)
-	(text "Antenna"
-		(exclude_from_sim no)
-		(at 95.25 97.282 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3ced16e9-0a73-4176-bdee-5406df31fdd6")
-	)
-	(text "Impedance"
-		(exclude_from_sim no)
-		(at 96.52 49.276 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4734a74a-3d03-4495-9c89-38bd01fb7f08")
-	)
-	(text "Antenna Notes:\n- LoRaWan\n	- 868 MHz (EU)\n	- 915 MHz (AM)\n- GNSS (GPS) Frequency is \n	- For L1: 1575.42\n	- For L2: 1227.6\n	- For L5: 1176.45\n- The stackup for the first 3 layers\n	- 0.035 mm (Cu)\n	- 0.2104 mm (Prepreg - 7628*1)\n	- 0.0152 mm (Cu)\nLink: https://jlcpcb.com/impedance"
-		(exclude_from_sim no)
-		(at 21.082 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b2f1871-3779-4a81-8a2b-f3dfa34ee091")
-	)
-	(text "Notes:\n- The dielectric constant is 4.4\n- The stackup for the first 3 layers\n	- 0.035 mm (Cu)\n	- 0.2104 mm (Prepreg - 7628*1)\n	- 0.0152 mm (Cu)\nLink: https://jlcpcb.com/impedance"
-		(exclude_from_sim no)
-		(at 18.034 32.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6e3a912-1de4-4d2e-9ed0-197d6b4c61ca")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
