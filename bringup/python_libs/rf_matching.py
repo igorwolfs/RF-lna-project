@@ -30,6 +30,9 @@ def build_LNA_match_network(C1_val, L1_val, C2_val, L2_val, freq, band_ntwk, z0=
     ckt = rf.Circuit(connections, name='LNA-match', frequency=freq)
     return ckt
 
+# C1 = 76.424 pF, Optimal L1 = 7.670 nH, Optimal C2 = 76.424 pF, Optimal L2 = 7.670 nH
+# C1 = 3.600 pF, Optimal L1 = 7.600 nH, Optimal C2 = 3.600 pF, Optimal L2 = 1.000 nH
+
 
 
 def build_T_match_network(C1_val, L_val, C2_val, freq, band_ntwk, z0=50):
